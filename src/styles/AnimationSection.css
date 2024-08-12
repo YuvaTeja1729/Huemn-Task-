@@ -1,0 +1,36 @@
+/* src/components/AnimationSection.css */
+.animation-section {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .animation-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .animation-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #4285f4;
+    border-radius: 10px;
+    animation: bounce 2s infinite;
+  }
+  
+  /* Keyframes for bounce animation */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  

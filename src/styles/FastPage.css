@@ -1,0 +1,46 @@
+/* src/components/FastPage.css */
+.fast-page {
+    padding: 50px;
+    background-color: #e0f7fa;
+    text-align: center;
+  }
+  
+  .fast-page h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00796b;
+  }
+  
+  .fast-animation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    background-color: #00796b;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+  }
+  
+  /* Keyframes for pulse animation */
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.7;
+    }
+  }
+  
+  .fast-page p {
+    font-size: 1.2rem;
+    color: #004d40;
+  }
+  
+  
